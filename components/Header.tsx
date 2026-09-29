@@ -27,7 +27,7 @@ function Header() {
             <RiSearchLine/>
           </InputGroupAddon>
         </InputGroup>
-        <Button variant={"ghost"} size={"icon-lg"}>
+        <Button size={"icon-lg"}>
           <RiNotification3Line size={20} />
         </Button>
         <ModeToggle/>
