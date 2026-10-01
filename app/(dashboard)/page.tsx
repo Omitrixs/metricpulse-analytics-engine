@@ -52,8 +52,8 @@ function Dashboard() {
           />
         </div>
           {/* Charts Row */}
-          <div className="">
-            <div className="">
+          <div className="grid grid-cols-1 gap-4 xl:grid-cols-3">
+            <div className="xl:col-span-2">
               <RevenueChart />
             </div>
             <div className="">
