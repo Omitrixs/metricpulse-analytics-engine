@@ -59,7 +59,7 @@ function DonutChart() {
           </PieChart>
         </ChartContainer>
         {/* Card Footer */}
-          <div className="space-y-2 mt-2">
+          <div className="space-y-2">
             {trafficData.map((items) =>
             <div className="flex items-center
             justify-between text-xs" key={items.name}>

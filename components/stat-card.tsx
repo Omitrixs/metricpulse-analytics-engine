@@ -28,8 +28,8 @@ function StatCard({
             </div>
 
             {/* Badge */}
-            <Badge variant={positive ? "secondary" : "destructive"} className={cn("text-sm font-semibold", positive ? "bg-emerald-50 text-emerald-600 border-emerald-100 hover:bg-emerald-500" : 
-                "bg-red-50 text-red-500 border-red-100 hover:bg-red-50"
+            <Badge variant={positive ? "secondary" : "destructive"} className={cn("text-sm font-semibold", positive ? "bg-emerald-50 text-emerald-600 border-emerald-100 hover:bg-emerald-200" : 
+                "bg-red-50 text-red-600 border-red-100 hover:bg-red-200"
                 )}>
                 {change}
             </Badge>

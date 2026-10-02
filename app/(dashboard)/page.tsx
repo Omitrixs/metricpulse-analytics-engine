@@ -5,6 +5,8 @@ import { RiMoneyDollarCircleLine, RiUserLine, RiShoppingBagLine,
  } from "@remixicon/react"
 import RevenueChart from '@/components/charts/revenue-chart'
 import DonutChart from '@/components/charts/donut-chart'
+import RecentOrdersTables from '@/components/recent-orders-tables'
+import TopProducts from '@/components/top-products'
 
 
 function Dashboard() {
@@ -56,14 +58,19 @@ function Dashboard() {
             <div className="xl:col-span-2">
               <RevenueChart />
             </div>
-            <div className="">
+            <div>
               <DonutChart />
             </div>
           </div>
 
             {/* Button Row */}
-            <div className="">
-              
+            <div className="grid grid-cols-1 gap-4 xl:grid-cols-3">
+              <div className="xl:col-span-2">
+                <RecentOrdersTables />
+              </div>
+              <div>
+                <TopProducts />
+              </div>
             </div>
         </div>
     </main>
