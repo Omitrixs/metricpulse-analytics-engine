@@ -59,7 +59,7 @@ const totalOverdue = invoices
   .filter((i) => i.status === "overdue")
   .reduce((s, i) => s + i.amount, 0);
 
-export const summeryCardsItems = [
+export const summaryCardsItems = [
   {
     label: "Total Collected",
     value: `$${totalPending.toLocaleString()}`,
