@@ -81,17 +81,17 @@ export const settingsItems = [
   {
     id: "first",
     label: "First name",
-    value: "Edward",
+    value: "Toyosi",
   },
   {
     id: "last",
     label: "Last name",
-    value: "Pembroke",
+    value: "Omitusa",
   },
   {
     id: "email",
     label: "Email",
-    value: "edward@example.com",
+    value: "omitusaayotoyosi@gmail.com",
   },
   {
     id: "company",
